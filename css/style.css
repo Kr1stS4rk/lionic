@@ -1,0 +1,199 @@
+/* open-sans-300 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/open-sans-v40-cyrillic_latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v40-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/open-sans-v40-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*{box-sizing: border-box;}
+a{text-decoration: none;}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none ;}
+
+img{
+  max-width: 100%;}
+
+  html{font-family: "Open Sans", sans-serif;}
+
+  .btn{
+    padding:15px 16px ;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+    background-color: #3172b9;
+    border-radius:4px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .text-center{text-align: center;}
+  .text-left{text-align: left;}
+
+.container{max-width:1200px;
+margin-right: auto;
+margin-left: auto;
+padding-right: 15px;
+padding-left: 15px;}
+
+header{height: 110px;}
+
+.header-conteiner{
+ display: flex;
+align-items: center;
+justify-content: space-between;
+height: 100%;}
+
+
+
+.nav-list{display: flex;
+margin: auto;}
+
+.nav-item:not(:last-child){margin-right: 50px;}
+.header-btn{margin-left: 40px;}
+/*hero*/
+
+.hero-conteiner
+{padding-top: 120px;
+padding-bottom: 130px;}
+
+.hero-content{max-width: 50%;}
+
+.section-hero-heading{margin-bottom:20px ;}
+.section-hero-description{margin-bottom: 30px;}
+
+.section-hero-btn-description{margin-top:12px ;}
+
+/*section-do*/
+.section-do{
+padding-top: 140px;
+padding-bottom: 100px;
+}
+
+.section-description{
+  margin-top:25px}
+
+.section-do-list{
+  margin-top: 50px;
+  display:flex;}
+
+  .section-do-item{flex:1 1 25%;}
+  .section-do-item:not(:last-child){margin-right: 30px;}
+
+/*section-clients*/
+
+  .section-clients{
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+  .section-clients-list{margin-top: 40px;
+    display: flex;
+  margin-bottom: 130px;}
+
+  .section-clients-list-item {flex:1 1 33.33%;
+  }
+  .section-clients-list-item:not(:last-child){margin-right: 30px;}
+  
+  .section-clients-user-responce{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;}
+
+    
+    .section-clients-avatar{
+      width: 60px;
+      height: 60px;
+      margin-right: 21px;
+    border: 2px solid #3172b9;
+  border-radius: 50px;
+}
+
+/*section-contacts*/
+.section-contacts{
+  padding-top: 85px;
+  padding-bottom: 95px;}
+
+  .section-contacts-list{
+    display: flex;
+    margin-top: 80px;
+  }
+  
+  .section-contacts-list-item {flex:1 1 33.33%;
+  }
+  .section-contacts-info{
+    max-width: 250px;}
+
+  .section-contacts-icon {
+    display: block;
+    height: 26px;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size:auto 100% ;
+    background-color: transparent;
+  }
+  .section-contacts-icon-gps{background-image: url("/img/gps.png");}
+  .section-contacts-icon-phone{background-image: url("/img/phone.png");}
+  .section-contacts-icon-mail{background-image: url("/img/mail.png");
+  background-size: auto 19px;}
+
+  .section-contacts-heading{display: block;
+    margin-bottom:40px ;}
+
+/*footer-contacts*/
+    footer{height: 125px;}
+
+    .footer-container{
+      display: flex;
+      align-items: center ;
+     justify-content: space-between;
+     height: 100%;}
+
+     .footer-left{display: flex;
+    align-items: center;}
+
+     .footer-logo{margin-right: 30px;}
+
+     .footer-nav-list{display: flex;}
+     .footer-nav-list{
+      margin-left: 150px;
+     }
+.footer-nav-item:not(:last-child){margin-right: 25px;}
+
+
+.footer-social-list{margin-left: 60px;}
+.footer-social-icon{
+display: block;
+height: 23px;
+background-repeat: no-repeat;
+background-position: center right;
+background-size:auto 100% ;
+background-color: transparent;
+}
+
+.footer-social-icon-twitter{
+  background-image:url("/img/footer/Twitter.png") ;
+}
+.footer-social-icon-lindekin{background-image: url("/img/footer/Linkedin.png");}
+.footer-social-icon-base{background-image: url("/img/footer/");}
